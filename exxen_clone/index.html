@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <title> Exxen Home Page Copy Trial </title>
+  <style>
+    @font-face {
+      font-family: Myrd;
+      src: url(Myriad\ Pro\ Bold\ Condensed.ttf);
+    }
+
+    * {
+      font-family: Myrd;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .nav-link {
+      font-size: 24px;
+      font-family: Myrd;
+      margin: 0 0 0 15px;
+      padding: 10px 30px;
+    }
+
+    .form-select {
+      font-size: 22.4px;
+      font-family: Myrd;
+    }
+
+    @media screen and (max-width:1285px) {
+      .navbar {
+        height: 164.19px !important;
+        padding-top: 0px !important;
+
+      }
+
+      .navbaric {
+        position: relative;
+        top: -20px;
+      }
+
+      .uyegirisi {
+        height: 47.59px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: 3vw;
+      }
+
+      .exxenspor {
+        width: 100%;
+        height: 5vh;
+        font-size: 2.5vh;
+        position: absolute !important;
+        bottom: -60px;
+        right: 0%;
+        text-align: center;
+      }
+
+    }
+
+    @media screen and (max-width:920px) {
+
+      .navbar {
+        height: 164.19px !important;
+        padding-top: 0px !important;
+      }
+
+      .navbaric {
+        position: relative;
+        top: -20px;
+      }
+
+      .uyegirisi {
+        height: 47.59px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: 3vw;
+      }
+
+      .exxenspor {
+        width: 100%;
+        height: 47.59px;
+        position: absolute !important;
+        bottom: -60px;
+        right: 0%;
+        text-align: center;
+      }
+
+      .uyeolcon {
+
+        height: 165px !important;
+      }
+
+      .uyeolbar {
+        display: block !important;
+      }
+
+      #inputPassword {
+        height: 40px !important;
+      }
+
+      #inputEmail {
+        height: 40px !important;
+      }
+
+      #inputButton {
+        height: 40px !important;
+      }
+
+      .Password {
+        height: 40px !important;
+        width: 100% !important;
+        margin: 10px 0px !important;
+        padding: 0px !important;
+      }
+
+      .Email {
+        height: 40px !important;
+        width: 100% !important;
+        margin: 10px 0px !important;
+        padding: 0px !important;
+      }
+
+      .Button {
+        height: 40px !important;
+        width: 100% !important;
+        margin: 10px 0px !important;
+        padding: 0px !important;
+      }
+    }
+
+    @media screen and (max-width:576px) {
+
+      .bosluk {
+        width: 0px !important;
+        padding: 0px !important;
+        margin: 0px !important;
+      }
+
+      .logoexxen {
+        width: 30vw;
+      }
+
+      .marketler {
+        display: block !important;
+        margin: 10px auto !important;
+      }
+
+      .navbar {
+        padding-top: 0px !important;
+      }
+
+      .form-select {
+        scale: 0.2;
+        width: 10% !important;
+        position: absolute;
+        right: 0;
+      }
+
+      .navbaric {
+        position: relative;
+        top: -20px;
+      }
+
+      .sontext {
+        font-size: 5vw !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <nav class="navbar navbar-expand navbar-light "
+      style="background-color: #FFCB04; padding: 25px 15px; height: 126.40px;">
+      <div class="container bosluk  col-sm-1 col-md-2 col-lg-2 "></div>
+      <div class="container-fluid navbaric">
+        <a class="navbar-brand " href="https://www.exxen.com/tr">
+          <img class="logoexxen" src="images/logo-web.svg" alt="Logo">
+        </a>
+        <div class=" justify-content-lg-end" id="navbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link exxenspor active  bg-black fw-semibold " style="color: #FFCB04; padding: 10px 30px;"
+                aria-current="page" href="#">EXXENSPOR Ticari Üye Ol</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link uyegirisi border border-dark text-black" style="padding: 10px 30px;" href="#">Üye
+                Girişi</a>
+            </li>
+            <li class="nav-item formsec form-select-sm d-flex my-auto ms-2 ">
+              <img class="lang-icon " src="images/lang-icon.svg">
+              <select class="form-select form-select-sm border-0 " style="background-color: #FFCB04; width: 100%;"
+                aria-label=".form-select-sm example">
+                <option selected>TR</option>
+                <option value="1">EN</option>
+                <option value="2">الة</option>
+                <option value="3">ES</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container bosluk col-sm-1 col-md-2 col-lg-2 "></div>
+    </nav>
+    <div class="container-fluid uyeolcon d-flex p-0 sticky-top "
+      style="height: 106px; background-color: #111111; z-index: 2000; ">
+      <div class="container mx-0 p-0 bosluk col-sm-1 col-md-2 col-lg-2 "></div>
+      <div class="container uyeolbar mx-0 d-flex justify-content-around  ">
+        <div class="Password col-4  h-100 d-flex align-items-center">
+          <input type="text" id="inputPassword" class="form-control h-50  px-3 py-0 " placeholder="Ad Soyadı"
+            aria-describedby="passwordHelpInline">
+        </div>
+        <div class="Email col-4 mx-4  h-100 d-flex align-items-center  ">
+          <input type="email" id="inputEmail" class="form-control h-50 px-3 py-0" placeholder="E-Posta Adresi"
+            aria-describedby="passwordHelpInline">
+        </div>
+        <div class=" Button col-4  h-100 d-flex align-items-center">
+          <input type="button" id="inputButton" class="col-12 btn h-50 fs-5 px-3 py-0"
+            style="background-color: #FFCB04;" value="Üye Ol" aria-describedby="passwordHelpInline">
+        </div>
+      </div>
+      <div class="container mx-0 p-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+    </div>
+    <div class="main d-flex">
+      <div class="container bosluk col-sm-1 col-md-2 col-lg-2 p-0"></div>
+      <div class="container ">
+        <img src="https://image.exxen.com/landing/14gun.jpg" class="img-fluid  py-5 " alt="...">
+      </div>
+      <div class="container bosluk col-sm-1 col-md-2 col-lg-2 p-0"></div>
+    </div>
+    </div>
+    </div>
+    <div class="filmler d-flex">
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+      <div class="container">
+        <div class="row row-cols-2 row-cols-md-4">
+          <div class="card bg-black">
+            <img src="images/Poster.webp" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Şampiyonlar Ligi</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (1).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Avrupa Ligi</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (2).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Avrupa Konferans Ligi</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (3).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Konuşanlar</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (4).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Sadece Arkadaşız</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (5).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Sizi Dinliyorum</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (6).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Gibi</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (7).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Leyla ile Mecnun</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (8).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white "><a class="text-decoration-none text-white"
+                  href="https://www.exxen.com/tr/detail/serie/tolgshow-filtresiz/22481">Tolgashow Filtresiz</a></h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (9).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white "><a class="text-decoration-none text-white"
+                  href="https://www.exxen.com/tr/detail/movie/kral-sakir-cumburlop/36389">Kral Şakir Cumburlop</a></h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (10).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Türkiye'deki Seri Katiller</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (11).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Aşk Kumardır</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (12).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Dominik'te Görmedikleriniz Bilmedikleriniz</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (13).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">İlginç Bazı Olaylar</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (14).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Enes Batur'la Buluşma</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (15).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Olağan Şüpheliler</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (16).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">O Ses Türkiye Rap</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (17).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Vahşi Şeyler</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (18).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Arabeskin Aşık Kadınları</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (19).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Bir Yeraltı Sit-com'u</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (20).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Ölüm Zamanı</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (21).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Zeynep Bastık ve Konukları</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (22).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Nusaybin Cinleri</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (23).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Alper Rende ile Kaçış</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (24).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Öğrenci Evi</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (25).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Sihirli Annem</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (26).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Şeref Bey</h5>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="images/Poster (27).webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-white ">Katarsis</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <div class="devices d-flex justify-content-center mt-5 ">
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+      <img src="images/devices.svg" class="img-fluid " alt="...">
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+    </div>
+    <div class="text d-flex justify-content-center">
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+      <p class="text-center sontext text-white my-4" style="font-size: 34.2145px; padding: 0 94px;">Hemen üye ol, cepte,
+        tablette,
+        bilgisayarda, istediğin zaman, istediğin yerde exxen.com, Google Play, AppGallery, App Store, Apple TV ve
+        Android TV'den izlemeye başla.</p>
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+    </div>
+    <div class="market d-flex justify-content-center">
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+      <div class="container marketler d-flex justify-content-center " style="height: 46.39px;">
+        <img src="images/app-store-2.svg" class="img-fluid mx-1 " style="height: 40px;" alt="...">
+        <img src="images/google-play@3x.png" class="img-fluid mx-1 " style="height: 40px;" alt="...">
+        <img src="images/huawei-app-gallery@3x.png" class="img-fluid mx-1 " style="height: 40px;" alt="...">
+      </div>
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+    </div>
+    <div class="social d-flex justify-content-center">
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+      <div class="container d-flex justify-content-center my-5 " style="height: 28px;">
+        <img src="images/instagram.svg" class="img-fluid mx-2  " alt="...">
+        <img src="images/facebook.svg" class="img-fluid mx-2 " alt="...">
+        <img src="images/twitter.svg" class="img-fluid mx-2 " alt="...">
+        <img src="images/tiktok.svg" class="img-fluid mx-2 " alt="...">
+      </div>
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+    </div>
+    <div class="container-fluid mx-0  d-flex justify-content-center">
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+      <a href="https://yardim-exxen.ortusdesk.com/" class="text-center text-decoration-none text-warning w-100  "
+        style="font-size: 20.08px; padding: 19px 0; margin-bottom: 64px; background-color: #090909;">Exxen Yardım
+        Merkezi</a>
+      <div class="container mx-0 bosluk col-sm-1 col-md-2 col-lg-2"></div>
+    </div>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+</html>
